@@ -1,0 +1,26 @@
+body{
+	background: rgb(109,173,215);	
+	background: linear-gradient(90deg, rgb(235, 201, 9) 0%, rgb(149, 31, 165) 100%);
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    width: 270px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(44, 38, 38);
+}
+div{
+    text-align: center;
+    padding: 8px;
+}
+footer{
+    color:azure;
+    text-align: center;
+    font-style: italic;
+}
