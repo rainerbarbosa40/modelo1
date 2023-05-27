@@ -4,9 +4,9 @@ var msg = window.document.getElementById('msg')
 var img = window.document.getElementById('imagem')
 var data = new Date()
 var hora = data.getHours()
-var horaAgora = data.getHours() + 'h:' + data.getMinutes()
+var horaAgora = data.getHours() + ':' + data.getMinutes()
 
-msg.innerHTML = `Agora são ${horaAgora}min <br>`
+msg.innerHTML = `Agora são ${horaAgora} <br>`
 if(hora >= 0 && hora < 12){
     window.document.body.style.background = '#FFDEAD'
     img.src = 'fotomanha.jpeg'
